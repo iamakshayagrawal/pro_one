@@ -26,7 +26,7 @@ SECRET_KEY = '64mif5@4du2s-3&5t#c*fxo6xzo$kkarrxin!4x-zhoo!5yrw='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pro-one.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'app_one',
+    'app_two',
 ]
 
 MIDDLEWARE = [
